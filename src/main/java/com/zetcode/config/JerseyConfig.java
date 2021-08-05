@@ -1,5 +1,9 @@
 package com.zetcode.config;
 
+/**
+ * JerseyConfig registers two service classes.
+ */
+
 import com.zetcode.service.HelloService;
 import com.zetcode.service.ReverseService;
 import org.glassfish.jersey.server.ResourceConfig;
